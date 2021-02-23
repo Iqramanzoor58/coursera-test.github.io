@@ -1,0 +1,186 @@
+
+    p{
+        padding:10px;
+    }
+    div{
+        padding-left:5px;  
+        padding-right:5px;       
+    }
+    *{
+        box-sizing:border-box;
+    }
+    #p4{
+            background-color: #f068ce;
+            text-align: center;
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+           /* width: 19%;*/
+           width: 19%;
+        } 
+        #p5{
+            background-color: rgb(243, 109, 109);
+            text-align: center;
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            width: 19%;
+          /*  width: 60px;*/
+        }
+        #p6{
+            background-color: rgb(226, 247, 154);
+           /* margin-left: 259px;*/
+            text-align: center;
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            width:18%;
+            /*width: 60px;*/
+        }
+    #p1{
+        background-color: rgb(151, 112, 219);
+        width: 320px;
+        height: 150px;
+        border:3px solid black;
+    }
+    #p2{
+        background-color: rgb(151, 112, 219);
+        width: 320px;
+        height: 150px;
+        border:3px solid black;
+    }
+
+    #p3{
+        background-color: rgb(151, 112, 219);
+        width: 320px;
+        height: 150px;
+        border:3px solid black;
+    }
+    /*       Mobile phones      */
+    @media(max-width:767px) {
+        h1{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+
+        #p1{
+            width:73%;
+            height: 140px;
+            margin-bottom: 20px;
+        }
+        #p2{
+            width:73%;
+            height: 140px;
+            margin-bottom: 20px;
+        }
+        #p3{
+            width:73%;
+            height: 140px;
+            margin-bottom: 20px;
+        }
+        #p4{
+            width: 20%;
+            
+            position: relative;
+            margin-left:82%;
+        }
+        #p5{
+            width: 20%;
+            position: relative;
+            margin-left:82%;
+        }
+        #p6{
+            width: 20%;
+            position: relative;
+            margin-left:82%;
+        }
+
+
+    }
+
+    /*   Tablet Mode     */
+    @media(min-width:768px) and (max-width: 991px) {
+        h1{
+            text-align: center;
+        }
+        div{
+            float:left;
+            margin-left:30px;
+        }
+        
+        #p1{
+            width:40%;
+            height: 140px;
+            margin-bottom: 20px;
+        }
+        #p2{
+            width: 40%;
+            height: 140px;
+            margin-bottom: 20px;
+        }
+        #p3{
+            width:70%;    /*323 px*/
+            height: 110px;
+            clear:left;
+            margin-bottom: 20px;
+        }
+        #p4{
+            width:20%;
+            position: relative;
+            margin-left:82%;
+        }
+        #p5{
+            width: 20%;
+            position: relative;
+            margin-left:82%;
+        }
+        #p6{
+            width: 19%;
+            position: relative;
+            margin-left:82%;
+        }
+
+    }
+
+    /*     Desktop      */
+
+    @media(min-width:992px){
+        h1{
+            text-align: center;
+        }
+        div{
+            float:left;
+            margin-left:30px;
+        }
+
+        #p1{
+            width:28%;
+            height: 140px;
+        }
+        #p2{
+            width: 28%;
+            height: 140px;
+        }
+        #p3{
+            width:28%;    /*323 px*/
+            height: 140px;
+        }
+        #p4{
+            width: 20%;
+            position: relative;
+            margin-left:82%;
+        }
+        #p5{
+            width: 20%;
+            position: relative;
+            margin-left:82%;
+        }
+        #p6{
+            width: 20%;
+            position: relative;
+            margin-left:82%;
+        }
+
+    }
