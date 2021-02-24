@@ -23,6 +23,7 @@
         border-left: 1px solid black;
         border-right: 1px solid black;
         border-bottom: 1px solid black;
+        width:19.5%;
     }
 
     #title1{
@@ -34,7 +35,6 @@
     #title3{
         background-color: rgb(226, 247, 154);
     }
-
     /*       Mobile phones      */
     @media(max-width:767px) {
         h1{
@@ -47,7 +47,7 @@
             margin-bottom: 20px;
         }
         #title1, #title2, #title3{
-           width: 27%;
+          /*  width: 19%;*/
             position: relative;
             margin-left:82%;
         }
