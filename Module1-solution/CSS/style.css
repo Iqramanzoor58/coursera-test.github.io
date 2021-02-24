@@ -6,98 +6,51 @@
         padding-left:5px;  
         padding-right:5px;       
     }
+
     *{
         box-sizing:border-box;
     }
-    #p4{
-            background-color: #f068ce;
-            text-align: center;
-            border-left: 3px solid black;
-            border-right: 3px solid black;
-            border-bottom: 3px solid black;
-           /* width: 19%;*/
-           width: 19%;
-        } 
-        #p5{
-            background-color: rgb(243, 109, 109);
-            text-align: center;
-            border-left: 3px solid black;
-            border-right: 3px solid black;
-            border-bottom: 3px solid black;
-            width: 19%;
-          /*  width: 60px;*/
-        }
-        #p6{
-            background-color: rgb(226, 247, 154);
-           /* margin-left: 259px;*/
-            text-align: center;
-            border-left: 3px solid black;
-            border-right: 3px solid black;
-            border-bottom: 3px solid black;
-            width:18%;
-            /*width: 60px;*/
-        }
-    #p1{
-        background-color: rgb(151, 112, 219);
+
+    #para1 , #para2, #para3{
+        background-color: rgb(169, 209, 214);
         width: 320px;
         height: 150px;
-        border:3px solid black;
+        border:1px solid black;
     }
-    #p2{
-        background-color: rgb(151, 112, 219);
-        width: 320px;
-        height: 150px;
-        border:3px solid black;
+    #title1 ,#title2 ,#title3
+    {
+        text-align: center;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        width:19.5;
     }
 
-    #p3{
-        background-color: rgb(151, 112, 219);
-        width: 320px;
-        height: 150px;
-        border:3px solid black;
+    #title1{
+        background-color: #eb68f0;   
+    } 
+    #title2{
+        background-color: rgb(243, 109, 109);
+    }
+    #title3{
+        background-color: rgb(226, 247, 154);
     }
     /*       Mobile phones      */
     @media(max-width:767px) {
         h1{
             text-align: center;
         }
-        h1{
-            text-align: center;
-        }
 
-        #p1{
+        #para1, #para2, #para3{
             width:73%;
             height: 140px;
             margin-bottom: 20px;
         }
-        #p2{
-            width:73%;
-            height: 140px;
-            margin-bottom: 20px;
-        }
-        #p3{
-            width:73%;
-            height: 140px;
-            margin-bottom: 20px;
-        }
-        #p4{
-            width: 20%;
-            
+        #title1, #title2, #title3{
+            width: 19%;
             position: relative;
             margin-left:82%;
         }
-        #p5{
-            width: 20%;
-            position: relative;
-            margin-left:82%;
-        }
-        #p6{
-            width: 20%;
-            position: relative;
-            margin-left:82%;
-        }
-
-
     }
 
     /*   Tablet Mode     */
@@ -110,34 +63,24 @@
             margin-left:30px;
         }
         
-        #p1{
+        #para1, #para2{
             width:40%;
             height: 140px;
             margin-bottom: 20px;
         }
-        #p2{
-            width: 40%;
-            height: 140px;
-            margin-bottom: 20px;
-        }
-        #p3{
+        #para3{
             width:84%;    /*323 px*/
             height: 110px;
             clear:left;
             margin-bottom: 20px;
         }
-        #p4{
-            width:20%;
+        #title1,#title2{
+            width:19.5%;
             position: relative;
             margin-left:82%;
         }
-        #p5{
-            width: 20%;
-            position: relative;
-            margin-left:82%;
-        }
-        #p6{
-            width: 19%;
+        #title3{
+            width: 18.7%;
             position: relative;
             margin-left:82%;
         }
@@ -155,30 +98,12 @@
             margin-left:30px;
         }
 
-        #p1{
-            width:28%;
-            height: 140px;
-        }
-        #p2{
-            width: 28%;
-            height: 140px;
-        }
-        #p3{
+        #para1, #para2, #para3{
             width:28%;    /*323 px*/
             height: 140px;
         }
-        #p4{
-            width: 20%;
-            position: relative;
-            margin-left:82%;
-        }
-        #p5{
-            width: 20%;
-            position: relative;
-            margin-left:82%;
-        }
-        #p6{
-            width: 20%;
+        #title1, #title2 ,#title3{
+            width: 19.5%;
             position: relative;
             margin-left:82%;
         }
