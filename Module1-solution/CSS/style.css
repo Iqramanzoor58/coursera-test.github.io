@@ -61,6 +61,9 @@
         h1{
             text-align: center;
         }
+        h1{
+            text-align: center;
+        }
 
         #p1{
             width:73%;
@@ -118,7 +121,7 @@
             margin-bottom: 20px;
         }
         #p3{
-            width:70%;    /*323 px*/
+            width:84%;    /*323 px*/
             height: 110px;
             clear:left;
             margin-bottom: 20px;
