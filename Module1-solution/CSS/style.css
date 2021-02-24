@@ -23,6 +23,8 @@
         border-left: 1px solid black;
         border-right: 1px solid black;
         border-bottom: 1px solid black;
+        margin-left:82%;
+        position: relative;
     }
 
     #title1{
@@ -42,13 +44,11 @@
 
         #para1, #para2, #para3{
             width:94%;
-            height: 30%;
+            height: 40%;
             margin-bottom: 20px;
         }
         #title1, #title2, #title3{
-            width: 23%;
-            position: relative;
-            margin-left:82%;
+            width: 20%;
         }
     }
 
@@ -73,15 +73,12 @@
             clear:left;
             margin-bottom: 20px;
         }
-        #title1,#title2{
+        
+        #title1, #title2{
             width:19.5%;
-            position: relative;
-            margin-left:82%;
         }
         #title3{
-            width: 18.7%;
-            position: relative;
-            margin-left:82%;
+            width: 18.7%;  
         }
 
     }
@@ -103,8 +100,7 @@
         }
         #title1, #title2 ,#title3{
             width: 19.5%;
-            position: relative;
-            margin-left:82%;
+           
         }
 
     }
